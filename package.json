@@ -1,0 +1,32 @@
+{
+  "name": "nuxt-ts-template",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon node_modules/@nuxt/cli/bin/nuxt-cli.js --watch server",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --fix --ext .js,.ts,.vue ."
+  },
+  "dependencies": {
+    "@types/node": "^16.7.1",
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.12",
+    "nuxt": "^2.15.7",
+    "sass": "^1.37.5",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.15.7",
+    "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/eslint-config-typescript": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^7.0.1",
+    "prettier": "^2.3.2"
+  }
+}

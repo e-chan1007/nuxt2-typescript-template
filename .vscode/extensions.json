@@ -1,0 +1,11 @@
+{
+  "recommendations": [
+    "dariofuzinato.vue-peek",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "mhutchie.git-graph",
+    "ms-vscode-remote.remote-containers",
+    "octref.vetur",
+    "visualstudioexptteam.vscodeintellicode"
+  ]
+}

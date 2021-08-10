@@ -1,0 +1,23 @@
+{
+	"name": "Nuxt.js x TypeScript Template",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": {
+			"VARIANT": "14"
+		}
+	},
+	"settings": {},
+	"extensions": [
+		"dariofuzinato.vue-peek",
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode",
+		"mhutchie.git-graph",
+		"octref.vetur",
+		"visualstudioexptteam.vscodeintellicode"
+	],
+	"forwardPorts": [
+		3000
+	],
+	"postCreateCommand": "yarn install",
+	"remoteUser": "node"
+}
